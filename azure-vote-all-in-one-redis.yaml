@@ -53,10 +53,10 @@ spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
       containers:
-      - name: azure-vote-front
+      - name: azure-vote-front-MNa
         image: microsoft/azure-vote-front:v1
         ports:
-        - containerPort: 80
+        - containerPort: 812
         resources:
           requests:
             cpu: 250m
